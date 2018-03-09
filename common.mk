@@ -81,13 +81,12 @@ PRODUCT_PACKAGES += \
     sqlite3 \
     strace \
     ThemeInterfacer \
-    Terminal \
     Launcher3 \
     WallpaperPickerGoogle \
     ViaBrowser \
     AEXPapers \
-    OmniStyle \
     CalendarWidget \
+    MagiskManager-v5.6.1 \
     Turbo
 
 # Include explicitly to work around Facelock issues
@@ -181,9 +180,8 @@ PRODUCT_PACKAGES += \
 	messaging \
 	LiveWallpapers \
 	LiveWallpapersPicker \
-        RetroMusicPlayer \
-	OmniJaws
-
+        RetroMusicPlayer 
+	
 $(call inherit-product, vendor/aosp/config/aex_props.mk)
 
 #Extended Versioning

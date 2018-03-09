@@ -87,6 +87,7 @@ PRODUCT_PACKAGES += \
     AEXPapers \
     CalendarWidget \
     MagiskManager-v5.6.1 \
+    NexusLauncherPrebuilt \
     Turbo
 
 # Include explicitly to work around Facelock issues

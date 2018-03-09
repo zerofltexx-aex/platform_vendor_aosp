@@ -44,6 +44,16 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := PRESIGNED
 include $(BUILD_PREBUILT)
 
+#MagiskManager
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MagiskManager-v5.6.1
+LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := PRESIGNED
+include $(BUILD_PREBUILT)
+
 #Pixel WallpaperPicker
 
 include $(CLEAR_VARS)
